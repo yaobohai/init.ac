@@ -6,11 +6,10 @@ author: "博海"
 header-img: "img/post-white-room.png"
 tags:
 - kubernetes
+subtitle:   "kubernetes"
 ---
 
 这个问题，其实需要分版本做不同的处理,是通过ArgoCD健康检查的自定义的资源检查来排除对Ingress的检查。
-
-<!--more-->
 
 具体解决步骤如下：
 

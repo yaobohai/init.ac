@@ -6,10 +6,8 @@ author: "博海"
 header-img: "img/post-white-room.png"
 tags:
 - kubernetes
+subtitle:   "kubernetes"
 ---
-暂无描述内容
-
-<!--more-->
 
 1、查看具有evicted的pod的事件
 
