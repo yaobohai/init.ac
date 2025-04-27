@@ -13,6 +13,7 @@ jobs:
         bundler-cache: true
     - name: 构建站点
       run: |
+        bundle update sass-embedded
         bundle exec jekyll build --trace --profile
     - name: 仓库配置
       env:
