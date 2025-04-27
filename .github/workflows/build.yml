@@ -1,5 +1,5 @@
-on: [push]
 name: build and deployment
+on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
