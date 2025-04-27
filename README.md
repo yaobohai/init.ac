@@ -4,7 +4,10 @@
 # Install
 ```
 gem install bundler jekyll
+
 bundle install
+
+# 启动本地服务器
 bundle exec jekyll server
 bundle update
 ```
