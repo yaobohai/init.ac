@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+<head>
+    <script data-ad-client="ca-pub-2211183676955599" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+</head>
+<!-- hack iOS CSS :active style -->
+<body ontouchstart="">
+
+    {% include nav.html %}
+
+    {{ content }}
+
+    {% include footer.html %}
+
+
+<!-- Image to hack wechat -->
+<!-- <img src="/img/icon_wechat.png" width="50" height="50" /> -->
+<!-- Migrate from head to bottom, no longer block render and still work -->
+
+</body>
+
+</html>
