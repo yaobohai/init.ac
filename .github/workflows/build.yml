@@ -11,11 +11,10 @@ jobs:
       with:
         ruby-version: 2.7
         bundler-cache: true
+    - name: 构建站点
       run: |
         gem install bundler jekyll
         bundle install
-    - name: 构建站点
-      run: |
         bundle exec jekyll build --trace --profile
     - name: 仓库配置
       env:
