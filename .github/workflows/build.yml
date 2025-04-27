@@ -13,7 +13,7 @@ jobs:
         bundler-cache: true
     - name: 构建站点
       run: |
-        gem install bundler jekyll
+#        gem install bundler jekyll
         bundle install
         bundle exec jekyll build --trace --profile
     - name: 仓库配置
