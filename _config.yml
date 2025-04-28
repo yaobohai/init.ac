@@ -86,5 +86,9 @@ friends: [
     {
         title: "加速海外文件下载",
         href: "https://download.init.ac"
+    },
+    {
+        title: "StarsL's Blog",
+        href: "https://starsl.cn/"
     }
 ]
