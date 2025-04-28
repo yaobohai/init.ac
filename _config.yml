@@ -84,11 +84,15 @@ featured-condition-size: 1              # A tag will be featured if the size of 
 # Friends
 friends: [
     {
-        title: "加速海外文件下载",
-        href: "https://download.init.ac"
-    },
-    {
         title: "StarsL's Blog",
         href: "https://starsl.cn/"
+    },
+    {
+        title: "Colud启视界",
+        href: "https://jiaxs.cn/"
+    },
+    {
+        title: "加速海外文件下载",
+        href: "https://download.init.ac"
     }
 ]
