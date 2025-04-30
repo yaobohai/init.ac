@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Java学习笔记-通过docker-maven-plugin插件构建springboot容器制品"
+title:      "Java笔记-通过docker-maven-plugin构建springboot容器制品"
 subtitle:   "Java"
 date:       2025-04-30
 author:     "博海"
