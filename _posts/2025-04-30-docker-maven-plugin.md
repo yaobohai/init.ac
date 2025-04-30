@@ -26,7 +26,7 @@ tags:
 
 在maven的settings.xml配置中，加入docker registry镜像仓库的信息。
 
-```settings.xml
+```xml
     <servers>
         ...
         <server>
