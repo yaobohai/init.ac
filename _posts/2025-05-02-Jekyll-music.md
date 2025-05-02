@@ -12,7 +12,7 @@ tags:
 
 首先，在 `_layouts/post.html` 中增加
 
-```
+```bash
 <!-- 网易云音乐 -->
 {% if page.musicId %}
   <div style="display: flex; justify-content: flex-end; width: 100%;">
