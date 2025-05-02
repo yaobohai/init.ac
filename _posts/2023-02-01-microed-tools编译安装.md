@@ -3,7 +3,7 @@ layout:     post
 title:      "MicroED-Tools编译安装"
 subtitle:   "MicroED"
 date:       2023-02-01
-author:     "MicroED"
+author:     "博海"
 header-img: "img/1450094558.jpg
 tags:
 - MicroED
@@ -153,4 +153,4 @@ echo 'PATH=$PATH:/usr/local/mircoed-tools' >> /etc/profile
 ```
 ### 2.3 环境验证
 
-新打开⼀个终端，输⼊mrc2smv来验证程序是否可⽤即可。
+新打开⼀个终端，输⼊`mrc2smv` 命令来验证程序是否可⽤即可。
