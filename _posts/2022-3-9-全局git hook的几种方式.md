@@ -1,12 +1,12 @@
 ---
 layout:     post
-title:      "全局git hook的几种方式"
-subtitle:   "git"
+title:      "Git hook的几种方式"
+subtitle:   "Git"
 date:       2022-3-9
 author:     "转发"
 header-img: "img/post-white-room.png"
 tags:
-- git
+- Git
 ---
 
 
