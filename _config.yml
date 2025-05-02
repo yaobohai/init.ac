@@ -33,12 +33,7 @@ anchorjs: false                          # if you want to customize anchor. chec
 # from PR#40, to support local preview for Jekyll 3.0
 plugins_dir: [jekyll-paginate]
 gems: [jekyll-paginate]
-plugins: ["jekyll-paginate","jekyll-toc"]
-defaults:
-  - scope:
-      path: ""
-    values:
-      toc: true
+plugins: ["jekyll-paginate"]
 
 # Markdown settings
 # replace redcarpet to kramdown,
