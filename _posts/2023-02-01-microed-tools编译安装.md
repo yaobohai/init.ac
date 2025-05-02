@@ -7,7 +7,6 @@ author:     "博海"
 header-img: "img/1450094558.jpg"
 tags:
 - MicroED
-% include toc.html html=content %
 ---
 
 ## 前言
