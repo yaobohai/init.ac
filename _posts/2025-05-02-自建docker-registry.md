@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "自建docker-registry"
+title:      "自建Docker-registry解决国内访问docker hub"
 subtitle:   "Docker"
 date:       2025-05-02
 author:     "博海"

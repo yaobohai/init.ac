@@ -39,8 +39,8 @@ https://cryoem.ucla.edu/downloads/snapshots
 ### 1.1 安装依赖包
 
 ```shell
-sudo apt-get install libxslt-dev flex libarchive-dev libnlopt-dev cmake apt-get install libtiff-dev
-sudo apt-get install pandoc
+sudo apt-get install libxslt-dev flex libarchive-dev libnlopt-dev cmake 
+sudo apt-get install libtiff-dev pandoc
 ```
 
 ### 1.2 安装libtiff
