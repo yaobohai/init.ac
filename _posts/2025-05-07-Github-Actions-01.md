@@ -235,3 +235,5 @@ Untagged: registry.cn-hangzhou.aliyuncs.com/bohai_repo/flask-demo:1.0.0-SNAPSHOT
 Untagged: registry.cn-hangzhou.aliyuncs.com/bohai_repo/flask-demo@sha256:6005f777adaa185580d91301c425a1aeb7e97610c6868e3fd6308057a1bfbfa2
 Deleted: sha256:bd62b8a842297522fabd6c159cda71c78a5df7b5c4dc90ddfaa847c7319d9acf
 ```
+
+![actions_06](../../../../img/in-post/2025-07-04/actions_06.png)
