@@ -33,7 +33,7 @@ tags:
 - 编译环节
   - 简单的应用打包
   - 具有预编译脚本的打包
-- 提交验证
+
 
 ## 初始化Git仓库
 
@@ -153,7 +153,13 @@ jobs:
 ```
 
 
-根据上述描述文件的定义，将 `build_repo_name` 和 `build_repo_addr` 修改为你的实际docker镜像namespace内容; 比如: `registry.cn-hangzhou.aliyuncs.com/zhangsan/flask-demo` 是你的镜像地址，那么`registry.cn-hangzhou.aliyuncs.com`就是 `build_repo_addr`的值。`zhangsan` 就是build_repo_name的值
+根据上述描述文件的定义，将 `build_repo_name` 和 `build_repo_addr` 修改为你的实际docker镜像namespace内容 
+
+比如: `registry.cn-hangzhou.aliyuncs.com/zhangsan/flask-demo` 是你的镜像地址，那么:
+
+`zhangsan` 是 `build_repo_name` 的值  
+`registry.cn-hangzhou.aliyuncs.com` 是 `build_repo_addr`的值  
+
 
 这样搞，就完成了一个服务的编译构建逻辑。这个时候我们的目录结构如下所示
 
@@ -237,3 +243,12 @@ Deleted: sha256:bd62b8a842297522fabd6c159cda71c78a5df7b5c4dc90ddfaa847c7319d9acf
 ```
 
 ![actions_06](../../../../img/in-post/2025-07-04/actions_06.png)
+
+
+### 具有预编译脚本的打包
+
+如果docker镜像编译起来还略微复杂，比如会通过执行一系列动作，比如下载其他工具包等等的操作，那么可以在编译的目录中增加预编译脚本：`actions.sh` 来让编译镜像前先执行这个脚本，来完成打包。
+
+## 更多
+
+这里公开了文章演示的 Github 仓库，可参考：https://github.com/bohai-repo/builder_template 直接参考
