@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Github Actions妙用技能(第一章)-构建多应用的CI仓库"
+title:      "Github Actions妙用技能(第一章)-使用Actions来构建多应用的Docker镜像"
 subtitle:   "Docker"
 date:       2025-07-04
 author:     "博海"
@@ -251,4 +251,4 @@ Deleted: sha256:bd62b8a842297522fabd6c159cda71c78a5df7b5c4dc90ddfaa847c7319d9acf
 
 ## 更多
 
-这里公开了文章演示的 Github 仓库，可参考：https://github.com/bohai-repo/builder_template 直接参考
+这里公开了文章演示的 Github 仓库，可参考：https://github.com/bohai-repo/builder_template
